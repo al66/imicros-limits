@@ -1,0 +1,36 @@
+{
+  "name": "imicros-limits",
+  "version": "0.0.1",
+  "description": "Molerculer service for rate- and capacity limits in imicros backend",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage --no-cache",
+    "test-local": "jest --coverage --no-cache --config=local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al66/imicros-limits.git"
+  },
+  "keywords": [
+    "moleculer",
+    "imicros",
+    "ratelimiter"
+  ],
+  "author": "Andreas Leinen <andreas.leinen@imicros.de> (www.imicros.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/al66/imicros-limits/issues"
+  },
+  "homepage": "https://github.com/al66/imicros-limits#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "moleculer": "^0.14.19"
+  },
+  "dependencies": {
+    "ioredis": "^4.28.5"
+  }
+}
